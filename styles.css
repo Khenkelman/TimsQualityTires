@@ -1,0 +1,275 @@
+body, Header {
+    background-image: url("photos/main_background.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    height:100%;
+    margin:0;
+    font-family: sans-serif;
+    background-attachment: fixed
+}
+a{
+    text-decoration: none;
+}
+hr{
+    width: 90%;
+}
+        /****************************/
+        /*****   White Banner  ******/
+        /****************************/
+
+heading{
+    margin-top: 2.5em;
+    display: inline-flex;
+    background-color: white;
+    padding: 0em;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 3pt;
+}
+#logo{
+    padding-right: 1em;
+    vertical-align: middle;
+    width: 13%;
+    transform: scale(2);
+}
+.arrow{
+    display: inline-block;
+    font-size: 50%
+}
+table{
+    display: inline-flex;
+    text-align: center;
+    padding: 1em;
+    font-size: 140%;
+    font-family: dosis, sans-serif;
+}
+#navTable1{
+    padding-left: 12%;
+}
+#selectedNav{
+    display: block;
+    padding-bottom: 4pt;
+    border-bottom: solid 2pt steelblue ;
+}
+        /****************************/
+        /*****   Big Message  ******/
+        /****************************/
+#eyeCatcher{
+    width: 58%;
+    margin-left: 10%; margin-top:2em;
+    float:left;
+}
+#bigTitle{
+    margin-top: 1.5em; margin-left: 1em; margin-bottom: 0;
+    color: white; font-weight: bold; font-family: monospace; font-size: 4em;
+    text-shadow: 0px 0px 20px black;
+}
+#subBigTitle{
+    color: white; font-family: monospace; font-size: 1.4em;
+    text-shadow: 0px 0px 8px black;
+    margin-left: 3em;
+}
+#readMore{
+    background-color: #d3ba32;
+    padding: 0.7em 0.9em 0.7em 0.9em;
+    border: 0 solid lightgrey;
+    border-radius: 0.7em;
+    margin-left: 4em; margin-top: 2em;margin-bottom: 3em;
+    font-family: monospace; color: white; font-weight: bold;
+    text-shadow: black 0pt 0pt 2pt ;
+    font-size: 1.2em;
+}
+#readMore:hover{
+    transform: scale(105%);
+}
+#openingTime{
+    float:left;
+    width: 16%;
+    margin-top: 4em; margin-left: 2%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 3pt;
+}
+#openingTime h2{
+    margin-top: 1%;margin-bottom: 9%;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: steelblue;
+}
+#openingTime p{
+    font-size: 0.9em; color: gray;
+}
+
+        /****************************/
+        /*****     Page Body   ******/
+        /****************************/
+#bodyBanner{
+    margin-top: 6em;
+    margin: 6em 30% 0em 30%;
+    display: inline-block;
+    background-image: linear-gradient(steelblue, #2c577b);
+    width: 40%;
+    padding: 1%; padding-top: 0%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 5pt;
+    transform: translate(0pt, 3pt);
+}
+#bodyBanner:hover{
+    transform: translate(0pt, 0pt);
+    transform: scale(103%);
+}
+#pageBody{
+    display: inline-block;
+    background-color: white;
+    width: 90%;bottom: 0;
+    padding: 5%;
+    text-align: center;
+}
+#bodySection1{
+    float:left;
+    width: 22.5%;
+    padding: 1%;
+    text-align: left;
+}
+#bodySection2{
+    float:left;
+    width: 22.5%;
+    padding: 1%;
+    
+}
+#bodySection3{
+    float:left;
+    width: 22.5%;
+    padding: 1%;
+}
+#bodySection4{
+    float:left;
+    width: 22.5%;
+    padding: 1%;
+    
+}
+.bodySectionPic{
+    text-align: center;
+    width: 90%;
+}
+.bodyTitle1{
+    font-family: dosis, sans-serif;
+    font-weight: 100;
+}
+.bodyTitle2{
+    font-family: dosis, sans-serif;
+    font-weight: bold;
+}
+        /****************************/
+        /***** Contact Section  ******/
+        /****************************/
+#contact{
+    float:left;
+    width: 40%;
+    padding: 1% 0 0 5%;
+    text-align: left;
+}
+.contactTitle{
+    font-family: dosis, sans-serif;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.contactTitle2{
+    font-family: dosis, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#Contactsubtitle{
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.quoteForm{
+    float:left; width: 40%;
+    padding: 1em;
+}
+.quoteForm p{
+    margin: 4%;
+}
+.quoteForm input{
+    margin-bottom: 1em;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 3pt;
+    padding: 0.8em;
+}
+.quoteForm label{
+    font-weight: 600;
+    font-family: sans-serif
+}
+#sendQuote{
+    background-color: #d3ba32;
+    padding: 0.7em 0.9em 0.7em 0.9em;
+    border: 0 solid lightgrey;
+    border-radius: 0.7em;
+    margin-bottom: 3em;
+    font-family: monospace; color: white; font-weight: bold; font-size: 1.2em;
+    text-shadow: black 0pt 0pt 2pt ;
+}
+        /****************************/
+        /** Testimonials Section  ***/
+        /****************************/
+#testimonials{
+    float:left;
+    width: 40%;
+    padding: 1% 0 0 5%;
+    text-align: left;
+}
+#testimonialLeft{
+    float: left;
+    width: 50%;
+}
+#testimonialRight{
+    float:left;
+    text-align: right;
+    width: 50%;
+    font-size: 3em;
+}
+#testimonialRight a{
+    color:black
+}
+
+
+.bubble {
+	height: 1.2em;
+	width: 100%;
+	background: lightgrey;
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+	margin-top: 50px;
+	font-size: 1.2em;
+    color: grey;
+    padding-bottom: 5em; padding-top: 2em; padding-left: 2em;padding-right: 2em;
+	text-align: center;
+}
+
+.pointer {
+	height: 30px;
+	width: 30px;
+	background: lightgrey;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 4px 0;
+	margin-top: -22px;
+	position: relative;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    color: gray;
+    font-size: 1em; 
+    padding: 0.6em;
+    margin-bottom: 0;
+}
